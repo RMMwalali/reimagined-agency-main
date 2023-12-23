@@ -1,0 +1,15 @@
+name = " iPAS Africa - Leading Consulting Firm"
+license = "MIT"
+licenselink = "https://github.com/themefisher/educenter-hugo/blob/master/LICENSE"
+description = "iPAS Africa is a premier consulting firm in Nairobi, Kenya, offering innovative and sustainable solutions for complex industrial electrical needs. Work with us for forward-thinking design services that enhance your business performance."
+homepage = "https://gethugothemes.com/products/educenter-hugo/"
+demosite = "https://demo.gethugothemes.com/educenter/"
+tags = ['consulting firm', 'industrial electrical solutions', 'business performance enhancement', 'nairobi consulting services', 'kenya industrial consulting', 'expert consultation services', 'ipas africa consulting', 'business advisory nairobi', 'professional consulting kenya', 'industrial system design', 'sustainable design practices', 'energy efficient solutions', 'sustainable business practices', 'industrial performance improvement', 'environmental impact reduction', 'forward-thinking design services', 'consulting', 'nairobi', 'kenya', 'industrial', 'electrical', 'design', 'sustainability', 'performance', 'environment', 'ipas', 'africa', 'services', 'solutions', 'business', 'advisory', 'professional', 'system', 'practices', 'energy', 'efficiency']
+features = ["blog", "company", "responsive", "seo-friendly"]
+version = "1.0.0"
+min_version = "0.115.1"
+
+[author]
+  name = "RMMwalali"
+  homepage = "https://github.com/RMMwalali"
+
