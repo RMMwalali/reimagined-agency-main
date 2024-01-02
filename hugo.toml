@@ -13,8 +13,7 @@ googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read th
 # disqus short name
 disqusShortname = "iPAS Consulting" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
-disableLanguages = [
-] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+disableLanguages = ["fr"] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 
 ############################# Build ##############################
@@ -93,14 +92,15 @@ link = "plugins/google-map/gmap.js"
 [params]
 logo = "images/ipass.png"
 # Meta data
-description = "This is meta description"
+description = "iPAS Africa is a premier consulting firm in Nairobi, Kenya, offering innovative and sustainable solutions for complex industrial electrical needs. Work with us for forward-thinking design services that enhance your business performance."
 author = "iPAS Consulting"
 # contact info
 address = "P.O. BOX 12174 - 00100 - Nairobi, Kenya"
 mobile = "+254 702 387 383"
-email = "info@ipasconsulting.com"
+whatsapp = "+254 106 240 028"
+email = "ipas.africa01@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formsubmit.co/ipas.africa01@gmail.com" # contact form works with https://formspree.io
 # Google Analitycs
 google_analitycs_id = "" # your id
 # top header
@@ -132,31 +132,16 @@ enable = false
 expire_days = 2
 
 ############################# social site ########################
-[[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/in/eng-nelson-mang-eni-8700334b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
+[[params.social]]
+title = "xing"
+icon = "ti-link" # themify icon : https://themify.me/themify-icons
+link = "https://www.xing.com/profile/Nelson_Mangeni"
 
 ################################### English language #####################################
 [Languages.en]
@@ -176,17 +161,17 @@ copyright = "Copyright &copy; 2023 website by [RMMwalali](https://rmmwalali.com/
 
 # main menu
 [[Languages.en.menu.main]]
-name = "About"
+name = "About Us"
 url = "about/"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Services"
+name = "Our Services"
 url = "services/"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Contact"
+name = "Contact Us"
 url = "contact/"
 weight = 3
 

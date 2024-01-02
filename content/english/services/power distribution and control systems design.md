@@ -3,7 +3,7 @@ title: "Power Distribution and Control Systems Design"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: ""
 # meta description
 description : "Electrical power at an industrial installation needs to be reticulated
 to the various load centres and utilization points in an efficient and
@@ -11,7 +11,7 @@ effective manner. This necessitates properly designed switchgear and
 controlgear, be it in the medium voltage of low voltage levels, according to
 the load requirements."
 # course thumbnail
-image: "images/courses/bell-dynamic-premium.png"
+image: "images/services/POWER DISTRIBUTION.jpg"
 # taxonomy
 category: "Power Distribution and Control Systems Design"
 # teacher

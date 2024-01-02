@@ -20,10 +20,17 @@
       </div>
       <div class="col-lg-5 content">
         {{ .Content }}
-        <a href="tel:{{ site.Params.mobile }}" class="text-color h5 d-block">{{ site.Params.mobile }}</a>
-        <a href="mailto:{{ site.Params.email }}" class="mb-5 text-color h5 d-block">{{ site.Params.email }}</a>
-        <p>{{ site.Params.address | markdownify }}</p>
-      </div>
+        <a href="tel:{{ site.Params.mobile }}" target="_blank" class="text-color h5 d-block">
+          <i class="ti-mobile icon-spacing"></i> {{ site.Params.mobile }}
+        </a>
+        <a href="mailto:{{ site.Params.email }}" target="_blank" class="text-color h5 d-block">
+          <i class="ti-email icon-spacing"></i> {{ site.Params.email }}
+        </a>
+        <a href="https://wa.me/+254106240028" target="_blank" class="text-color h5 d-block no-underline">
+          <i class="ti-comment alt icon-spacing"></i> Chat on WhatsApp
+        </a>
+        <p class="text-color h5 d-block"><i class="ti-location-pin text-color h5"></i> {{ site.Params.address | markdownify }}</p>
+      </div>          
     </div>
   </div>
 </section>

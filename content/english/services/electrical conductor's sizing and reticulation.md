@@ -3,11 +3,11 @@ title: "Electrical conductors’ sizing and reticulation system design"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: ""
 # meta description
 description : "Electrical power and signals need reliable and properly sized and designed conduction paths for transmission from their source to the designated load centres/ signal receptors. It’s for this reason that proper design and sizing of electrical power and signaling conductors is a fundamental part of any electrical design process. Failure to do this, stability and reliability of the resulting system are critical matters that have to be foregone from the onset."
 # course thumbnail
-image: "images/courses/brush-dynamic-premium.png"
+image: "images/services/ELECTRICAL CONDUCTORS.jpg"
 # taxonomy
 category: "Programming"
 # teacher

@@ -3,11 +3,11 @@ title: "Energy Conservation & Audits"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: ""
 # meta description
 description : "A systematic translation of energy conservation ideas into feasible solutions to reduce energy consumption is key in any industrial setup and helps in the control and reduction of the establishment’s operating expenses. With the three top expenses in a facility being Energy, materials and labor costs."
 # course thumbnail
-image: "images/courses/chess-dynamic-premium.png"
+image: "images/services/ENERGY AUDIT.jpg"
 # taxonomy
 category: ""
 # teacher
@@ -23,16 +23,9 @@ apply_url : "#"
 # type
 type: "course"
 ---
-At *i*PAS,
+At *i*PAS, we offer you energy conservation and audit services to help you control the first. Conserving energy is a top priority for us as your trusted industrial electrical design consultants.
 
-we offer you energy conservation and audit services to help you control the
-first. Conserving energy is a top priority for us as your trusted industrial
-electrical design consultants.
-
-Additionally,
-energy conservation and audit reduce energy costs and minimize damage to the
-environment. These steps are taken to optimize the energy supply and maximize
-efficiency and minimize waste.
+Additionally, energy conservation and audit reduce energy costs and minimize damage to the environment. These steps are taken to optimize the energy supply and maximize efficiency and minimize waste.
 
 ### Phases of Energy Audit
 

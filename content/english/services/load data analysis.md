@@ -3,11 +3,11 @@ title: "Load data analysis"
 date: 2023-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/courses/3d-coin-dynamic-premium.png"
+bg_image: ""
 # meta description
 description : "In your industrial infrastructure project, we typically start the project by collecting all information regarding your electrical load. We estimate how much electrical energy is required for your industrial infrastructure project. We then determine the type of input voltage (MV or LV) to use on a routine basis for your electrical installation to ensure cost efficiency and proper operation of all equipment in your plant. These constitute a thorough analysis of your electrical load data to enable us formulate the best design for your system."
 # course thumbnail
-image: "images/courses/3d-coin-dynamic-premium.png"
+image: "images/services/TYPICAL LOADLIST.jpg"
 # taxonomy
 category: "Load Data Analysis"
 # teacher
@@ -51,5 +51,10 @@ As professional industrial electrical engineering designers, we analyze the data
 * Block Diagrams
 * Block Estimates
 * Primary Consultation Report
+
+<p align="center">
+<img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1704004434/nhmxiex6jqc68stubymp.jpg
+" alt="typical load list" width="90%" height="550">
+</p>
 
 Load data analysis culminates in properly sizes electrical power distribution and control systems, both at the infeed of the industrial development, all the way downstream to every load. This also determines the size and specification of power transformer and back-up power equipment required for the industrial development.

@@ -16,7 +16,7 @@ interest: ["Electrical Engineering","Electronics Engineering"]
 # contact info
 contact:
   # contact item loop
-  - name : "ipas.africa@gmail.com"
+  - name : "ipas.africa01@gmail.com"
     icon : "ti-email" # icon pack : https://themify.me/themify-icons
     link : "mailto:ipas.africa@gmail.com"
 

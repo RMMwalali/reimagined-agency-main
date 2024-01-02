@@ -3,11 +3,11 @@ title: "Electrical power distribution system architecture"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: ""
 # meta description
 description : "This entails the organization of the electrical power distribution system topology from the infeed electrical power sources to every electrical energy utilization point. By creating this, we provide a road map for designing the electrical works. Our design process for this entails preparation of the installation structure for two or more levels of the system. Design of this architecture is done considering the installations required of the project. A well-prepared architecture provides information on the types of power sources available and defines system parameters at each distribution and utilization level."
 # course thumbnail
-image: "images/courses/at-dynamic-premium.png"
+image: "images/services/POWER DISTRIBUTION 1.jpg"
 # taxonomy
 category: "Mathematics"
 # teacher
@@ -25,9 +25,11 @@ type: "course"
 ---
 ### Impacts of Distribution Architecture on an Installation
 
-The architecture impacts the overall electrical installation; as such it has to be properly
+![power distribution architecture on an installation](https://res.cloudinary.com/dtnbwgpca/image/upload/v1704004434/fbjg5vh0us1lbddgpk1s.jpg)
 
-designed.
+The architecture impacts the overall electrical installation; as such it has to be properly designed.
+
+Load data analysis culminates in properly sizes electrical power distribution and control systems, both at the infeed of the industrial development, all the way downstream to every load. This also determines the size and specification of power transformer and back-up power equipment required for the industrial development
 
 ### Key aspects of the project impacted by the architecture
 

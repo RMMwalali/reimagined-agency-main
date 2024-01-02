@@ -3,11 +3,11 @@ title: "Automation and Control Systems Design"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: ""
 # meta description
 description : "iPAS performs a wide range of automation control system design and integration services, from small custom control of OEM packages to total plant floor systems integration."
 # course thumbnail
-image: "images/courses/clock-dynamic-premium.png"
+image: "images/services/AUDIT.jpg"
 # taxonomy
 category: "Automation and Control Systems Design"
 # teacher

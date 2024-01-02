@@ -3,11 +3,11 @@ title: "Electrical Equipment Testing and Inspection"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: ""
 # meta description
 description : "Proper testing and commissioning of your newly installed electrical equipment, or inspection of old equipment, can prevent costly delays and outages by detecting problems they before become critical."
 # course thumbnail
-image: "images/courses/cube-dynamic-premium.png"
+image: "images/services/TESTING.jpg"
 # taxonomy
 category: "Electrical Equipment Testing and Inspection"
 # teacher

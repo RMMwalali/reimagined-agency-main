@@ -3,11 +3,11 @@ title: "Substation/Switchyard design"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: ""
 # meta description
 description : "Be it indoors or outdoors, electrical power substations serve a critical function of stepping up or down voltages in the power distribution system, in addition to providing protection for equipment  and systems upstream or downstream."
 # course thumbnail
-image: "images/courses/axe-dynamic-premium.png"
+image: "images/services/SUBSTATION.jpg"
 # taxonomy
 category: "Switchyard Design"
 # teacher
