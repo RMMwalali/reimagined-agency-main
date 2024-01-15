@@ -61,26 +61,18 @@
           </ul>
 
           <!-- Language List -->
-          {{ if .IsTranslated }}
-          <select class="m-2 border-0 mb-5 mb-lg-2" id="select-language" onchange="location = this.value;">
-            {{ $siteLanguages := site.Languages}}
-            {{ $pageLang := .Page.Lang}}
-            {{ range .Page.AllTranslations }}
-            {{ $translation := .}}
-            {{ range $siteLanguages }}
-            {{ if eq $translation.Lang .Lang }}
-            {{ $selected := false }}
-            {{ if eq $pageLang .Lang}}
-            <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-            </option>
-            {{ else }}
-            <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-            {{ end }}
-            {{ end }}
-            {{ end }}
-            {{ end }}
-          </select>
-          {{ end }}
+          <div>
+            <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({
+                      includedLanguages: 'de,zh-CN,fr,zh-TW',
+                      pageLanguage: 'en'
+                  }, 'google_translate_element');
+              }
+            </script>
+            <div  id="google_translate_element" class="btn"></div>
+          </div>
         </div>
       </nav>
     </div>

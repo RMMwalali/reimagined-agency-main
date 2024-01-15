@@ -90,7 +90,7 @@ link = "plugins/google-map/gmap.js"
 
 #################### default parameters ################################
 [params]
-logo = "images/ipass.png"
+logo = "images/ipas logo - Copy.png"
 # Meta data
 description = "iPAS Africa is a premier consulting firm in Nairobi, Kenya, offering innovative and sustainable solutions for complex industrial electrical needs. Work with us for forward-thinking design services that enhance your business performance."
 author = "iPAS Consulting"
