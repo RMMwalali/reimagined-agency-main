@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "www.ipasafrica.com"
+baseURL = "https://ipasafrica.com/"
 title = "iPAS Engineering Consulting Firm"
 theme = "iPAS"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
