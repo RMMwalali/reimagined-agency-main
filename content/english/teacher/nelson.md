@@ -6,7 +6,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "The founder and brains behind iPAS Africa Consulting"
 # teacher portrait
-image: "https://res.cloudinary.com/dtnbwgpca/image/upload/v1717443073/ipas/kkpdyroymnmkaah6ezxe.jpg"
+image: "https://res.cloudinary.com/dtnbwgpca/image/upload/q_auto,f_auto/v1717443073/ipas/kkpdyroymnmkaah6ezxe.jpg"
 # course
 course: "Technical Director"
 # biography
