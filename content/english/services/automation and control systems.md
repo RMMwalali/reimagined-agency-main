@@ -5,7 +5,7 @@ draft: false
 # page title background image
 bg_image: ""
 # meta description
-description : "iPAS performs a wide range of automation control system design and integration services, from small custom control of OEM packages to total plant floor systems integration."
+description : "*i*PAS performs a wide range of automation control system design and integration services, from small custom control of OEM packages to total plant floor systems integration."
 # course thumbnail
 image: "images/services/AUDIT.jpg"
 # taxonomy

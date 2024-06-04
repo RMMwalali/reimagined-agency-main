@@ -6,9 +6,9 @@ bg_image: "images/backgrounds/page-title.jpg"
 # meta description
 description : "The founder and brains behind iPAS Africa Consulting"
 # teacher portrait
-image: "images/teachers/b.png"
+image: "https://res.cloudinary.com/dtnbwgpca/image/upload/v1717443073/ipas/kkpdyroymnmkaah6ezxe.jpg"
 # course
-course: "Founder and CEO"
+course: "Technical Director"
 # biography
 bio: "Professional Electrical & Electronics Engineer. Your partner in quality professional electrical power systems & automation systems solutions."
 # interest

@@ -4,7 +4,7 @@ slider:
   bg_image : "images/banner/banner-2.jpg"
   slider_item:
     # slider item loop
-    - title : "Welcome to iPAS"
+    - title : "Welcome to *i*PAS"
       content : "Your trusted partner in engineering solutions. We specialize in creating integrated, powered, and automated systems that drive efficiency and innovation."
       animation_in : "left"
       animation_out : "right"
@@ -32,32 +32,32 @@ banner_feature:
   image : "images/banner/banner-feature-1.png"
   feature_item:
     # feature item loop
-    - name : "Expertise"
-      icon : "ti-medall" # icon pack : https://themify.me/themify-icons
-      content : "We bring a wealth of knowledge to every project, ensuring we deliver solutions that are both innovative and practical."
+    - name : "Precision and Accuracy"
+      icon : "ti-target" # icon pack : https://themify.me/themify-icons
+      content : "In working out a solution to your system, <em>i</em>PAS walks with you from the conceptualization of the project through to thorough implementation of the solutions and beyond, to ensure long-term stability and efficiency of your system."
 
     # feature item loop
-    - name : "Innovation"
-      icon : "ti-light-bulb" # icon pack : https://themify.me/themify-icons
-      content : "At iPAS, we stay ahead of the curve by continuously learning and adapting to new technologies and methodologies in engineering."
+    - name : "Quality"
+      icon : "ti-medall-alt" # icon pack : https://themify.me/themify-icons
+      content : "Quality and safety are key aspects that we consider in our solutions’ design, bearing in mind the need to implement cost effective but reliable systems for uninterrupted operation of our client’s industrial plants."
 
     # feature item loop
-    - name : "Custom Solutions"
-      icon : "ti-palette" # icon pack : https://themify.me/themify-icons
-      content : "We offer custom engineering solutions tailored to your specific needs. Our team works closely with you to understand your objectives and deliver a solution that meets your requirements."
-
-    # feature item loop
-    - name : "Sustainability"
+    - name : "Integrated Approach"
       icon : "ti-stats-up" # icon pack : https://themify.me/themify-icons
-      content : "We design our systems to be energy-efficient and environmentally friendly, helping you reduce your carbon footprint while maintaining high performance."
+      content : "Cognizant of the fact that every project is unique in its own way, we take an integrated approach and work closely with project teams that may include mechanical and structural engineering partners, clients, architects, general contractors, and others, to work towards your project goals."
+
+    # feature item loop
+    - name : "Flexibility"
+      icon : "ti-panel" # icon pack : https://themify.me/themify-icons
+      content : "With our high flexibility in thought, execution and our operations, our aims and values guide us in the ethos of our work. We bring passion, innovation and expertise to complete our projects on schedule, on budget and following government specifications."
 
 
 ############################## about ##################################
 about:
   enable : true
-  title : "About iPAS"
+  title : "About *i*PAS"
   image : "images/about/about-us-1.jpg"
-  content : "Integrated Power and Automation Systems Ltd(iPAS) is an electrical engineering company that provides professional electrical systems design and project execution services for industrial developments. Our services include electrical distribution system design and upgrades, industrial power control systems, substations and switchgear, power systems analysis, generator control systems, automation systems and electrical distribution equipment testing."
+  content : "Integrated Power and Automation Systems Ltd(*i*PAS) is an electrical engineering company that provides professional electrical systems design and project execution services for industrial developments. Our services include electrical distribution system design and upgrades, industrial power control systems, substations and switchgear, power systems analysis, generator control systems, automation systems and electrical distribution equipment testing."
   button:
     enable : true
     label : "Learn More"

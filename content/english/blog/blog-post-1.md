@@ -5,7 +5,7 @@ draft: false
 # page title background image
 bg_image: "images/blog/1 (1).jpg"
 # meta description
-description : " A case study on how iPAS designed and implemented a load data analysis and energy conservation system for a cement factory in Kenya, resulting in significant savings and environmental benefits."
+description : " A case study on how *i*PAS designed and implemented a load data analysis and energy conservation system for a cement factory in Kenya, resulting in significant savings and environmental benefits."
 # post thumbnail
 image: "images/blog/1 (1).jpg"
 # post author

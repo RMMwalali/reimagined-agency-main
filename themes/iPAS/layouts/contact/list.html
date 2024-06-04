@@ -13,6 +13,7 @@
         <form action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
           <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
+          <input type="phone" class="form-control mb-3" id="phone" name="phone" placeholder="Your Phone Number">
           <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
           <textarea name="message" id="message" class="form-control mb-3" placeholder="Your Message"></textarea>
           <button type="submit" value="send" class="btn btn-primary">{{ i18n "send" }}</button>
@@ -21,12 +22,18 @@
       <div class="col-lg-5 content">
         {{ .Content }}
         <a href="tel:{{ site.Params.mobile }}" target="_blank" class="text-color h5 d-block">
-          <i class="ti-mobile icon-spacing"></i> {{ site.Params.mobile }}
+          <i class="ti-mobile icon-spacing"></i>KE: {{ site.Params.mobile }}
+        </a>
+        <a href="tel:{{ site.Params.gemobile }}" target="_blank" class="text-color h5 d-block">
+          <i class="ti-mobile icon-spacing"></i>DE: {{ site.Params.gemobile }}
         </a>
         <a href="mailto:{{ site.Params.email }}" target="_blank" class="text-color h5 d-block">
           <i class="ti-email icon-spacing"></i> {{ site.Params.email }}
         </a>
-        <a href="https://wa.me/+254106240028" target="_blank" class="text-color h5 d-block no-underline">
+        <a href="mailto:{{ site.Params.infoemail }}" target="_blank" class="text-color h5 d-block">
+          <i class="ti-email icon-spacing"></i> {{ site.Params.infoemail }}
+        </a>
+        <a href="https://wa.me/+254702387383" target="_blank" class="text-color h5 d-block no-underline">
           <i class="ti-comment alt icon-spacing"></i> Chat on WhatsApp
         </a>
         <p class="text-color h5 d-block"><i class="ti-location-pin text-color h5"></i> {{ site.Params.address | markdownify }}</p>

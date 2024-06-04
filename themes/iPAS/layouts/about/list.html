@@ -8,36 +8,218 @@
     <div class="row">
       <div class="col-12">
         {{ with .Params.image }}
-        <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">
+        {{/*  <img class="img-fluid w-100 mb-4" src="{{ . | relURL }}" alt="about image">  */}}
         {{ end }}
         {{ .Content }}
+        <div class="responsive-section">
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717477818/ipas/n4aekojaofevwp5wgeej.jpg" alt="flower" class="responsive-image shadow-sm bg-white rounded-lg p-6" />
+          <div class="text-content">
+            <h2 class="responsive-heading">Our Mission</h2>
+            <p class="responsive-text">
+              Our mission is to help our clients grow through qualified and cost-effective remote specialized staffing, available
+              round the clock, across all timezones. Through this, we help them become highly productive businesses delivering quality
+              projects with the fastest turnaround times amongst their competitors. Choose <em>i</em>PAS for all your electrical and automation
+              systems design and engineering needs and let us help your business grow and succeed.
+            </p>
+          </div>
+        </div>
+        <div class="responsive-section">
+          <div class="text-content">
+            <p class="responsive-text">
+            <em>i</em>PAS also provides on-site construction administration services, on need basis, to ensure electrical
+            manufacturers and
+            contractors provide and install systems according to the approved design plans and specifications. At the end of each
+            project, <em>i</em>PAS follows through to provide our clients with complete and accurate as-built drawings, manuals, and
+            project
+            technical documentation.
+            </p>
+          </div>
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717476873/ipas/ecqz1u7otuz548ckgpat.jpg" alt="flower"
+            class="responsive-image shadow-sm bg-white rounded-lg p-6" />
+        </div>
+        
+
+        
+        <style>
+          .responsive-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            padding: 20px;
+            gap: 20px;
+            /* Add spacing between sections */
+          }
+        
+          .responsive-image {
+            max-width: 90%;
+            width: auto;
+            height: auto;
+          }
+        
+          .text-content {
+            width: 100%;
+            text-align: center;
+          }
+        
+          .responsive-heading {
+            margin-bottom: 15px;
+          }
+        
+          .responsive-text {
+            margin: 0;
+          }
+        
+          @media (min-width: 768px) {
+            .responsive-section {
+              flex-direction: row;
+              justify-content: center;
+              align-items: stretch;
+              /* Ensures image and text have the same height */
+            }
+        
+            .responsive-image {
+              max-width: 50%;
+              height: auto;
+              margin: 0 20px 0 0;
+              object-fit: cover;
+              /* Ensures the image covers the same height as the text */
+            }
+        
+            .text-content {
+              max-width: 50%;
+              text-align: left;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              /* Center the text content vertically */
+            }
+          }
+          .card-image-container {
+            width: 100%;
+            height: 200px; /* Fixed height for all images */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .card-image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover; /* Ensures images fit properly */
+        }
+        </style>
+
+
       </div>
     </div>
   </div>
+  
 </section>
 <!-- /about -->
 
-<!-- funfacts -->
-{{ if $data.homepage.funfacts.enable }}
-{{ with $data.homepage.funfacts }}
-<section class="section-sm bg-primary">
+<section class="section-sm">
   <div class="container">
     <div class="row">
-      <!-- funfacts item -->
-      {{ range .funfact_item }}
-      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-        <div class="text-center">
-          <h5 class="text-white">{{ .name }}</h5>
-          <h2 class="count text-white" data-count="{{ .count }}">0</h2>
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">Our Values</h2>
         </div>
       </div>
-      {{ end }}
     </div>
+    <!-- course cards -->
+    <div class="row justify-content-center">
+      <!-- Course 1 -->
+    <div class="col-lg-4 col-sm-6 mb-5 flex justify-center">
+      <div class="card bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm">
+        <div class="card-image-container">
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717476721/ipas/o0sivrhmszms565wugfj.png" alt="Course Image" class="rounded-t-lg">
+        </div>
+        <div class="card-body text-center p-6">
+          <h3 class="card-title text-xl font-semibold mb-4">Precision and Accuracy</h3>
+          <p class="card-text text-gray-700">In working out a solution to your system, <em>i</em>PAS walks with you from the conceptualization of the project through to
+          thorough implementation of the solutions and beyond, to ensure long-term stability and efficiency of your system.
+          Cognizant of the criticality of the task at hand, accuracy and precision lies at the very core of all our operations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-5 flex justify-center">
+      <div class="card bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm">
+        <div class="card-image-container">
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717477092/ipas/gtdjpiu342otkv089zri.png" alt="Course Image" class="rounded-t-lg">
+        </div>
+        <div class="card-body text-center p-6">
+          <h3 class="card-title text-xl font-semibold mb-4">Quality</h3>
+          <p class="card-text text-gray-700">Quality and safety are key aspects that we consider in our solutions’ design, bearing in mind the need to implement cost
+          effective but reliable systems for uninterrupted operation of our client’s industrial plants. Our comprehensive set of
+          engineering design documentation and deliverables come in handy in ensuring high quality in our processing and delivery
+          of solutions according to our customers’ requirements.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-5 flex justify-center">
+      <div class="card bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm">
+        <div class="card-image-container">
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717477418/ipas/ed85krgsh7ppuu0jdbmf.jpg" alt="Course Image" class="rounded-t-lg">
+        </div>
+        <div class="card-body text-center p-6">
+          <h3 class="card-title text-xl font-semibold mb-4">Integrated Approach</h3>
+          <p class="card-text text-gray-700">Cognizant of the fact that every project is unique in its own way, we take an integrated approach and work closely with
+          project teams that may include mechanical and structural engineering partners, clients, architects, general contractors,
+          and others, to work towards your project goals.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-5 flex justify-center">
+      <div class="card bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm">
+        <div class="card-image-container">
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717476209/ipas/eilhjchiziborzwvfpy1.jpg" alt="Course Image" class="rounded-t-lg">
+        </div>
+        <div class="card-body text-center p-6">
+          <h3 class="card-title text-xl font-semibold mb-4">Adherence to Standards</h3>
+          <p class="card-text text-gray-700">Our designs and services are fully compliant with international engineering standards, and local regulations to ensure
+          safety of your installation, team and ingenious quality through and through. With a team of highly specialized
+          professionals with proven track of delivering a series of both greenfield and brownfield projects, we ensure that your
+          team walks with us throughout then journey to allow for a seamless transfer of critical design knowledge that will be
+          used even beyond the project in the running of your plant.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-5 flex justify-center">
+      <div class="card bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm">
+        <div class="card-image-container">
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717476122/ipas/w3g4vcboj2wsuoqxqiae.jpg" alt="Course Image" class="rounded-t-lg">
+        </div>
+        <div class="card-body text-center p-6">
+          <h3 class="card-title text-xl font-semibold mb-4">Professionalism</h3>
+          <p class="card-text text-gray-700">Where your ideas end, our reality begins! As professional electrical and automation systems design engineers, we help
+          our clients solve challenges and turn their concepts into tangible entities by providing prerogative industrial design
+          solutions. Always ready to address any comments or concerns, and staying one step ahead in anticipating bottlenecks and
+          challenges, we provide the highest quality of work and communication every client deserves.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 mb-5 flex justify-center">
+      <div class="card bg-white rounded-lg shadow-lg overflow-hidden w-full max-w-sm">
+        <div class="card-image-container">
+          <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1717475919/ipas/n8227yis0zppvhqmczdr.jpg" alt="Course Image" class="rounded-t-lg">
+        </div>
+        <div class="card-body text-center p-6">
+          <h3 class="card-title text-xl font-semibold mb-4">Flexibility</h3>
+          <p class="card-text text-gray-700">With our high flexibility in thought, execution and our operations, our aims and values guide us in the ethos of our
+          work. We bring passion, innovation and expertise to complete our projects on schedule, on budget and following
+          government specifications. Pursuing work practices built on reliability, impelled by excellence, and guided by respect,
+          we are determined to stretch the boundaries of possibilities and give you our very best.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- /course cards -->
+    
   </div>
 </section>
-{{ end }}
-{{ end }}
-<!-- /funfacts -->
+
 
 <!-- teacher -->
 {{ if $data.homepage.blog.enable }}
