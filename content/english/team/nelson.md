@@ -36,7 +36,7 @@ contact:
     link : "tel:+49 162 6322826"
 
   # contact item loop
-  - name : "Nelson Mang'eni"
+  - name : "Eng. Nelson Mang'eni"
     icon : "ti-linkedin" # icon pack : https://themify.me/themify-icons
     link : "https://www.linkedin.com/in/eng-nelson-mang-eni-8700334b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 
