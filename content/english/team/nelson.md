@@ -12,7 +12,7 @@ course: "Technical Director"
 # biography
 bio: "Eng. Nelson Mang'eni is an Electrical and Electronics Engineer with vast experience in the design and successful implementation of electrical power distribution and control systems. He holds a Bachelor of Engineering in Electrical and Electronics Engineering from Moi University, Kenya and is currently pursuing a Master of Business Administration(Operations Management) at the University of Nairobi, Kenya. Registered and licensed by the Engineers Board of Kenya(EBK) as a Professional Engineer, he is also a Certified Class A-1 Electrician by the Energy and Petroleum Regulatory Authority(EPRA). With professional practice spanning the Eastern and Central Africa Region, he also practices in Germany as an electrical engineer at an industrial machinery equipment manufacturer with a global footprint. Eng. Mang'eni has previously worked at reputable Kenyan Engineering firms, where he successfully led Engineering teams in design and execution of projects of varying magnitudes and complexities."
 # interest
-interest: ["Electrical and automation systems design services","Electrical installation & Electrical engineering consultancy","Testing and commissioning services","Maintenance services for electrical and automation systems plants and installations"]
+interest: ["Electrical and automation systems design services","Electrical engineering consultancy","Electrical installation","Testing and commissioning services"]
 # contact info
 contact:
   # contact item loop
