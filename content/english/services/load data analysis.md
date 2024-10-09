@@ -54,7 +54,7 @@ As professional industrial electrical engineering designers, we analyze the data
 
 <p align="center">
 <img src="https://res.cloudinary.com/dtnbwgpca/image/upload/v1704004434/nhmxiex6jqc68stubymp.jpg
-" alt="typical load list" width="90%" height="550">
+" alt="typical load list" width="90%" style="max-width: 100%; height: auto;" height="550">
 </p>
 
 Load data analysis culminates in properly sizes electrical power distribution and control systems, both at the infeed of the industrial development, all the way downstream to every load. This also determines the size and specification of power transformer and back-up power equipment required for the industrial development.

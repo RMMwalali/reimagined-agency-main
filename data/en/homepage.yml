@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-2.jpg"
+  bg_image : "images/banner/IMG_6115.JPG"
   slider_item:
     # slider item loop
     - title : "Welcome to *i*PAS"
@@ -29,7 +29,7 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature-1.png"
+  image : "images/banner/IMG_6116.jpg"
   feature_item:
     # feature item loop
     - name : "Precision and Accuracy"

@@ -1,17 +1,17 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ .Title }}</title>
-
+  <title>iPAS Africa</title>
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description"
-    content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    content="iPAS Africa is a premier consulting firm in Nairobi, Kenya, offering innovative and sustainable solutions for complex industrial electrical needs. Work with us for forward-thinking design services that enhance your business performance.">
   {{ with site.Params.author }}
   <meta name="author" content="{{ . }}">{{ end }}
-  
+  <meta http-equiv="Cache-control" content="public">
   <!-- theme meta -->
-  <meta name="theme-name" content="iPAS Africa Consulting" />
-  
+  <meta name="theme-name" content="iPAS Africa" />
+  <meta name="robots" content="noindex, follow" />
+
   {{ hugo.Generator }}
   {{ "<!-- multilingual SEO optimizations -->" | safeHTML }}
   {{ if .IsTranslated }}
@@ -32,5 +32,5 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.ico` | absURL }}" type="image/x-icon">
-
+  <link rel="canonical" href="https://www.ipasafrica.com/" />
 </head>
